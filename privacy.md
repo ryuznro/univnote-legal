@@ -42,4 +42,4 @@
    
   ## 8. 문의                                                                                               
                                                          
-  질문 사항: support@univnote.app (출시 후 결정)
+  질문 사항: ryuznro@gmail.com
