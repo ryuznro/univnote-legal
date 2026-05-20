@@ -1,3 +1,48 @@
+# UnivNote Terms of Service
+
+  Last updated: April 25, 2026
+  
+  ## 1. Agreement
+
+  By downloading or using UnivNote, you agree to these terms.
+
+  ## 2. License
+  
+  UnivNote is provided for personal, non-commercial use only. Resale, reverse engineering, or
+  redistribution of the app itself is prohibited.
+
+  ## 3. Content Ownership
+
+  All documents, handwriting, and images you create with UnivNote belong to you. UnivNote does
+  not claim any rights to user content.
+
+  ## 4. Payment and Refunds
+
+  In-App Purchase transactions follow Apple App Store policies. Refund requests must be
+  submitted directly to Apple (reportaproblem.apple.com).
+
+  ## 5. Limitation of Liability
+
+  UnivNote is provided "AS IS". The developer is not legally liable for data loss, device
+  issues, or similar problems. Please back up important documents separately.
+
+  ## 6. Service Changes / Termination
+
+  UnivNote features may change or service may be terminated without prior notice.
+
+  ## 7. Governing Law
+  
+  These terms are interpreted under the laws of the Republic of Korea.
+
+  ## 8. Contact
+
+  Questions: ryuznro@gmail.com
+
+
+
+
+
+
 # UnivNote 이용약관                                                                                      
                                                          
   최종 업데이트: 2026년 4월 25일
