@@ -1,4 +1,56 @@
- # UnivNote 개인정보 처리방침                                                                             
+ # UnivNote Privacy Policy
+
+  Last updated: April 25, 2026
+
+  ## 1. Information We Collect
+
+  UnivNote does not collect any personal information.
+  
+  - No sign-up required
+  - No data transmitted to external servers
+  - No advertising or analytics SDK used
+
+  ## 2. Data Storage Location
+
+  All documents, handwriting, and images are stored only on the user's device or the user's own
+  iCloud account.
+
+  - Local storage: iPad/iPhone internal storage
+  - iCloud Drive: When enabled by the user, in the user's own Apple ID iCloud container
+
+  The UnivNote developer cannot access this data.
+
+  ## 3. System Permissions
+
+  - Photo Library (optional): Used when inserting photos into notes. Read-only access.
+  
+  ## 4. Payment Information
+
+  In-App Purchase transactions are processed by Apple's App Store. UnivNote cannot access
+  payment information (such as card numbers).
+
+  ## 5. Diagnostic Data
+
+  Crash and performance diagnostics collected through iOS standard MetricKit are sent via email
+  only with user consent. No automatic transmission.
+
+  ## 6. Child Protection
+
+  UnivNote does not collect data from children under 13 years of age.
+
+  ## 7. Changes
+
+  If this policy changes, it will be posted on this page along with an app update.
+
+  ## 8. Contact
+  
+  Questions: ryuznro@gmail.com
+  
+  
+  
+  
+  
+  # UnivNote 개인정보 처리방침                                                                             
                                                                                                            
   최종 업데이트: 2026년 4월 25일                         
 
