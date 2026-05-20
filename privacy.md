@@ -25,7 +25,7 @@
                                                          
   ## 4. 결제 정보
 
-  In-App Purchase (얼리 서포터 팩) 결제는 Apple의 App Store가 처리합니다. UnivNote는 결제 정보(카드 번호   
+  In-App Purchase 결제는 Apple의 App Store가 처리합니다. UnivNote는 결제 정보(카드 번호   
   등)에 접근할 수 없습니다.
                                                                                                            
   ## 5. 진단 데이터                                      
