@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TakeTrim — iPad HEVC 화면녹화의 원본 보존 컷 편집 · Mac</title>
+<meta name="description" content="iPad HEVC/H.265 화면녹화에서 일부만 잘라내고 나머지는 재인코딩 없이 보존하는 Mac 컷 편집기. 스마트 렌더링, 키프레임 무손실 컷, 실제 한계와 사용 안내.">
+<link rel="canonical" href="https://ryuznro.github.io/univnote-legal/taketrim/"><style>body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;max-width:760px;margin:60px auto;padding:0 24px;line-height:1.8;color:#182b3a;background:#fafcfe}h1{font-size:2.3rem;line-height:1.3}h2{margin-top:2em}a{color:#006fb5}.eyebrow,footer{color:#526574}.lead{font-size:1.15rem}section{margin:2em 0}hr{border:0;border-top:1px solid #d9e3eb;margin:3em 0}</style></head><body>
+<p class="eyebrow">TakeTrim · macOS 15 이상 · Apple Silicon / Intel</p>
+<h1>몇 군데만 자르려고<br>영상 전체를 다시 인코딩해야 할까요?</h1>
+<p class="lead">iPad에서 녹화한 HEVC/H.265 영상의 앞뒤나 중간 구간을 덜어내고, 남길 영상은 원본 그대로 최대한 살리고 싶은 분을 위한 Mac 앱입니다.</p>
+<p>필기·설명 화면녹화에서 준비 시간이나 쉬는 부분을 제거하되, 남은 글씨와 필기를 다시 압축하고 싶지 않을 때 사용합니다. 새로운 화면을 만드는 편집보다 이미 녹화한 화면에서 필요한 구간만 남기는 작업에 집중합니다.</p>
+<p><strong>현재 출시 준비 중입니다.</strong> 앱 설치는 App Store 공개 후 가능합니다.</p>
+<h2>컷 경계는 처리하고, 복사 가능한 나머지는 그대로</h2>
+<p>프레임 정밀 모드는 HEVC 스마트 렌더링으로 컷 경계 주변의 필요한 구간만 다시 인코딩합니다. 복사 가능한 구간은 원본 압축 데이터를 그대로 내보내므로 그 구간에는 재압축 화질 손실이 없습니다. 완전 무손실 모드는 안전한 키프레임으로 컷 위치를 맞추는 대신 영상 샘플을 그대로 복사합니다.</p>
+<h2>이 용도에 맞는지 먼저 확인하세요</h2>
+<ul><li>Mac에서 iPad HEVC 화면녹화 한 편의 앞뒤나 중간을 잘라내려는 용도입니다.</li><li>다중 트랙 합성·효과·색보정·자막 생성은 제공하지 않습니다.</li><li>프레임끼리 참조하는 HEVC 구조상 재인코딩 범위는 원본과 컷 위치에 따라 달라집니다. 촘촘한 컷이나 긴 가리기 구간에서는 남긴 영상 전체를 다시 처리할 수 있습니다.</li><li>파일 크기 감소는 보장하지 않습니다. 경계 재인코딩으로 더 짧은 결과가 원본보다 커질 수 있습니다.</li><li>영상 보존과 오디오 처리는 별개입니다. 음량·가리기 편집이나 호환성 옵션은 오디오 재인코딩을 요구할 수 있습니다.</li><li>현재 앱 화면은 한국어입니다.</li></ul>
+<h2>기본 사용</h2>
+<ol><li>영상 또는 기존 .padcut 프로젝트를 엽니다. 작업 폴더 접근 요청은 원본 변경 감시와 안전한 저장에 필요합니다.</li><li>A로 선택, B 또는 ⌘B로 자르기, Delete로 선택 클립 리플 삭제, V로 가리기를 사용합니다. ⌘Z로 되돌립니다.</li><li>Space로 재생·정지합니다. 파형 높이와 가로 확대를 조절하고 1.0~2.0배속으로 확인할 수 있습니다. 배속은 미리듣기용이며 출력 속도를 바꾸지 않습니다.</li><li>⌘S는 편집 프로젝트 저장, ⌘E는 편집 영상 내보내기입니다. 프로젝트를 옮길 때는 원본 영상도 함께 옮기세요.</li></ol>
+<p>무음·저음량 자동 컷, 클립 음량, 0.01초 오디오 싱크 조정은 컷 편집을 돕는 부가 기능입니다. 외부 AI 편집안은 음성과 요청문을 직접 전달하고 JSON 제안을 가져오는 선택 기능이며, 앱에 AI 모델이나 자동 업로드는 없습니다.</p>
+<h2>문제가 생겼을 때</h2>
+<p>원본 이동·변경 안내가 나오면 원본을 다시 연결하거나 ⌘R로 확인하세요. 다른 재생기에서 오디오 연결부가 어긋나면 오디오 처리의 ‘호환성 우선 · AAC 재인코딩’을 시도하고 결과를 확인하세요. 모든 외부 재생기 동작을 보장하지는 않습니다.</p>
+<p>지원: <a href="mailto:ryuznro@gmail.com">ryuznro@gmail.com</a>. 앱 버전, macOS 버전, 입력 영상의 코덱·길이, 문제 재현 순서를 알려 주세요. 민감한 원본 영상은 보내지 않아도 됩니다.</p>
+<hr><section lang="en"><h2>TakeTrim — preserve iPad HEVC video when cutting on Mac</h2><p>Remove the beginning, end or unwanted sections of one iPad screen recording. Smart rendering reencodes necessary cut boundaries and copies eligible remaining video as original compressed data. This is a focused cutting tool, not an effects or multitrack editor.</p><p>Dense cuts can require full reencoding; smaller files are not guaranteed. Fully lossless cuts align to safe keyframes and may retain extra material. Audio processing is separate. The interface is currently Korean. macOS 15 or later; Apple Silicon and Intel. Release preparation is in progress.</p><p>For support, email <a href="mailto:ryuznro@gmail.com">ryuznro@gmail.com</a> with the app/macOS version and steps to reproduce. Do not send sensitive recordings.</p></section>
+<footer><a href="privacy.html">개인정보처리방침 · Privacy policy</a><p>© 2026 Jeonghwan Ryu</p></footer></body></html>
